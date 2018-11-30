@@ -1,12 +1,11 @@
 #VRFrame {
-    height: 400px;
-    width: 600px;
-    margin: 0 auto;
+    margin: 36px auto;
     text-align: center;
-    margin-top: 36px;
+    overflow: hidden;
 }
 
 iframe {
+    display: none;
     width: 100%;
     height: 100%;
 }
@@ -17,6 +16,10 @@ iframe {
     padding-bottom: 16px;
 }
 
+.full-screen-prompt {
+    display: block;
+}
+
 /* desktop media query */
 @media (min-width: 1025px){
     /* Landing Container Styles */
@@ -24,4 +27,12 @@ iframe {
         height: 60vh;
         width: 60vw;
     }
-  }
+
+    iframe {
+        display: block;
+    }
+    
+    .full-screen-prompt {
+        display: none;
+    }
+}
