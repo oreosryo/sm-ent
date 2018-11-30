@@ -5,6 +5,7 @@ import LandingComponent from './components/LandingComponent';
 import AboutComponent from './components/AboutComponent';
 import Timeline from './components/Timeline';
 import FinancialHistoryComponent from './components/FinancialHistoryComponent';
+import MenuComponent from './components/MenuComponent';
 
 /* import styles */
 import './App.css';
@@ -21,6 +22,7 @@ class App extends Component {
         <AboutComponent />
         <Timeline />
         <FinancialHistoryComponent />
+        <MenuComponent />
       </div>
     );
   }
