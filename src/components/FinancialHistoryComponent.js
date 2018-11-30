@@ -143,8 +143,8 @@ class FinancialHistoryComponent extends Component {
                 barGroups.append('text')
                     .attr('class', 'value')
                     .attr('x', (a) => xScale(a.name) + xScale.bandwidth() / 2)
-                    .attr('y', (a) => yScale(a.netIncome) + 30)
-                    .attr('fill', 'white')
+                    .attr('y', (a) => yScale(a.netIncome) - 10)
+                    .attr('fill', '#939393')
                     .attr('text-anchor', 'middle')
                     .text((a, idx) => {
                     let text = '';
@@ -174,7 +174,7 @@ class FinancialHistoryComponent extends Component {
                 .append('text')
                 .attr('class', 'value')
                 .attr('x', (a) => xScale(a.name) + xScale.bandwidth() / 2)
-                .attr('y', (a) => yScale(a.netIncome) + 30)
+                .attr('y', (a) => yScale(a.netIncome) - 10)
                 .attr('text-anchor', 'middle')
                 .text((a) => a.netIncome)
             

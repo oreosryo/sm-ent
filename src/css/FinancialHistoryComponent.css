@@ -38,7 +38,8 @@
   }
 
   .value {
-      fill: #FFFFFF;
+      fill: #939393;   
+      font-weight: 700;
   }
 
   .domain {
