@@ -1,0 +1,16 @@
+#about .title {
+    text-align: center;
+    margin-top: 32px;
+}
+
+#about .content-container {
+    background-color: #FFFFFF;
+    margin: 8px 16px;;
+}
+
+@media (min-width: 700px){
+    /* About Styles */
+    #about .content-container {
+        margin: 8px auto;
+    }
+  }

@@ -23,7 +23,30 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
     
-    <title>S.M. Entertainment - An Interactive History</title>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).on('click', 'a[href^="#"]', function(e) {
+          // target element id
+          var id = $(this).attr('href');
+
+          // target element
+          var $id = $(id);
+          if ($id.length === 0) {
+              return;
+          }
+
+          // prevent standard hash navigation (avoid blinking in IE)
+          e.preventDefault();
+
+          // top position relative to the document
+          var pos = $id.offset().top;
+
+          // animated top scrolling
+          $('body, html').animate({scrollTop: pos});
+      });
+    </script>
+    <title>SM Entertainment - An Interactive History</title>
   </head>
   <body>
     <noscript>
@@ -40,5 +63,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
   </body>
 </html>

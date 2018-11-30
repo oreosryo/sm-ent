@@ -1,0 +1,50 @@
+.time-event {
+    text-align: center;
+}
+
+.time-event .line-container .title {
+    text-align: left !important;
+    margin-top: 0 !important;
+    margin-left: 28px !important;
+    margin-bottom: 24px !important;
+    letter-spacing: -1px;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.time-event .line-container {
+    border-left: 2px solid #93939393;
+    margin: 0 16px;
+    overflow: hidden;
+}
+
+.time-event .line-container.last {
+    border: none;
+}
+
+.time-event .content-container {
+    padding: 0;
+}
+
+.time-event .time-event-content-container {
+    padding: 0 32px 48px 32px;
+    overflow: hidden;
+}
+
+.time-event .line-dot {
+    height: 21px;
+    width: 21px;
+    background-color: #EA617B;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    left: 11px;
+}
+
+.time-event:hover .line-dot {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
