@@ -13,12 +13,13 @@
       fill: #939393;
       text-transform: uppercase;
       font-size: 12px;
+      font-weight: 500 !important;
   }
 
   .label {
       font-size: 8px;
       fill: #939393;
-      font-weight: 700;
+      font-weight: 700 !important;
       text-transform: uppercase;
       letter-spacing: 2px;
   }
@@ -27,8 +28,9 @@
       fill: #f197b3;
   }
 
-  text {
+  #financial-history text {
       fill: #939393;
+      font-weight: 300;
   }
 
   #limit {

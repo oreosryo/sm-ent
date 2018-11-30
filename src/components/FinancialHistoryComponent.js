@@ -11,7 +11,7 @@ class FinancialHistoryComponent extends Component {
             {
                 chartSelector: "svg#data-viz-1", 
                 chartDomain: [0, 100],
-                chartTitle: "Net Income (2015)", 
+                chartTitle: "Net Income in Millions USD (2015)", 
                 chartData: [
                     {
                         name: "SM Entertainment",
@@ -30,7 +30,7 @@ class FinancialHistoryComponent extends Component {
             {
                 chartSelector: "svg#data-viz-2", 
                 chartDomain: [0, 100],
-                chartTitle: "Net Income (2016)", 
+                chartTitle: "Net Income in Millions USD (2016)", 
                 chartData: [
                     {
                         name: "SM Entertainment",
@@ -49,7 +49,7 @@ class FinancialHistoryComponent extends Component {
             {
                 chartSelector: "svg#data-viz-3",
                 chartDomain: [0, 100],
-                chartTitle: "Net Income (2017)", 
+                chartTitle: "Net Income in Millions USD (2017)", 
                 chartData: [
                     {
                         name: "SM Entertainment",
