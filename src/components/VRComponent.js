@@ -5,7 +5,10 @@ class VRComponent extends Component {
     render() {
         return (
             <div id="VRFrame">
+                
                 <iframe title="SM Family VR Experience" src="../sm-360/index.html"/>
+                {/* Development purposes only */}
+                {/*<iframe frameBorder="0" title="SM Family VR Experience" src="http://localhost:8081/index.html"/>*/}
             </div>
         );
     }
