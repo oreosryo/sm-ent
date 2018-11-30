@@ -6,6 +6,7 @@ import AboutComponent from './components/AboutComponent';
 import Timeline from './components/Timeline';
 import FinancialHistoryComponent from './components/FinancialHistoryComponent';
 import MenuComponent from './components/MenuComponent';
+import VRComponent from './components/VRComponent';
 
 /* import styles */
 import './App.css';
@@ -22,6 +23,7 @@ class App extends Component {
         <AboutComponent />
         <Timeline />
         <FinancialHistoryComponent />
+        <VRComponent />
         <MenuComponent />
       </div>
     );
