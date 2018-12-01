@@ -19,7 +19,7 @@
 }
 
 .time-event .line-container.last {
-    border: none;
+    border-left-style: dotted;
 }
 
 .time-event .content-container {
