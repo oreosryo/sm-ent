@@ -1,61 +1,42 @@
 var charts = [
     {
         chartSelector: "svg#data-viz-1", 
-        chartDomain: [0, 100],
-        chartTitle: "Net Income in Millions USD (2015)", 
+        chartDomain: [0, 40],
+        chartTitle: "Net Income in Millions USD (2015 - 2017)", 
         chartData: [
             {
-                name: "SM Entertainment",
+                name: "2015",
                 netIncome: 15
             },
             {
-                name: "YG Entertainment",
-                netIncome: 21.11
+                name: "2016",
+                netIncome: 21
             },
             {
-                name: "JYP Entertainment",
-                netIncome: 50.56
+                name: "2017",
+                netIncome: 26.5
             }
         ]
     }, 
     {
         chartSelector: "svg#data-viz-2", 
-        chartDomain: [0, 100],
-        chartTitle: "Net Income in Millions USD (2016)", 
+        chartDomain: [200, 400],
+        chartTitle: "Revenue in Millions USD (2015 - 2017)", 
         chartData: [
             {
-                name: "SM Entertainment",
-                netIncome: 21
+                name: "2015",
+                netIncome: 280
             },
             {
-                name: "YG Entertainment",
-                netIncome: 12.50
+                name: "2016",
+                netIncome: 313
             },
             {
-                name: "JYP Entertainment",
-                netIncome: 69.51
+                name: "2017",
+                netIncome: 350.3
             }
         ]
-    },
-    {
-        chartSelector: "svg#data-viz-3",
-        chartDomain: [0, 100],
-        chartTitle: "Net Income in Millions USD (2017)", 
-        chartData: [
-            {
-                name: "SM Entertainment",
-                netIncome: 26.5
-            },
-            {
-                name: "YG Entertainment",
-                netIncome: 10.94
-            },
-            {
-                name: "JYP Entertainment",
-                netIncome: 93.99
-            }
-        ]
-    } 
+    }
 ];
 
 export default charts;

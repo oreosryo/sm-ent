@@ -5,33 +5,32 @@ var timeLineData = [
         images: []
     },
     {
-        title: "1997",
-        content: "One of SM Entertainment's biggest groups, H.O.T, debuted. They were one of the first stars of the Korean Wave (or Hallyu). They sold over 12 million copies in South Korea and were commercially successful in China and Japan.",
+        title: "1996-1998",
+        content: "One of SM Entertainment's biggest groups, H.O.T, debuted. They were one of the first stars of the Korean Wave (or Hallyu). They sold over 12 million copies in South Korea and were commercially successful in China and Japan."
+        + " They were followed by S.E.S and Shinhwa.",
         images: [{
-            src: "/sm-ent/static/media/hot-history.jpeg",
-            thumbnail: "/sm-ent/static/media/hot-history.jpeg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 174,
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/hot-history.jpeg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/hot-history.jpeg?raw=true",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
             caption: "H.O.T History"
-        },
-        {
-            src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-            thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 212,
-            caption: "Boats (Jeshu John - designerspics.com)"
-        },
-        
-        {
-            src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-            thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 212
+        }, {
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/SES.png?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/SES.png?raw=true",
+            thumbnailWidth: 450,
+            thumbnailHeight: 300,
+            caption: "S.E.S."
+        }, {
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
+            thumbnailWidth: 400,
+            thumbnailHeight: 300,
+            caption: "Shinhwa"
         }]
     },
     {
-        title: "2001",
-        content: "This is some content",
+        title: "1997",
+        content: "SM's first girl group, SES, debuts. ",
         images: []
     }
 ];

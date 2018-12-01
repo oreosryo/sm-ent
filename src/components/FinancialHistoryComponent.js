@@ -34,7 +34,7 @@ class FinancialHistoryComponent extends Component {
 
             const xScale = window.d3.scaleBand()
                 .range([0,width])
-                .domain(["SM Entertainment", "YG Entertainment", "JYP Entertainment"])
+                .domain(["2015", "2016", "2017"])
                 .padding(0.2);
 
             chart.append('g')
@@ -154,7 +154,6 @@ class FinancialHistoryComponent extends Component {
                 <div className="title">Financial History</div>
                 <svg id="data-viz-1" />
                 <svg id="data-viz-2" />
-                <svg id="data-viz-3" />
             </div>
         );
     }
