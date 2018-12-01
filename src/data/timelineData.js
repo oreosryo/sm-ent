@@ -1,7 +1,7 @@
 var timeLineData = [
     {
         title: "1995",
-        content: "SM Studio was renamed to SM Entertainment and set up its capital fund.",
+        content: "SM Studio was renamed to SM Entertainment and it set up its capital fund.",
         images: []
     },
     {

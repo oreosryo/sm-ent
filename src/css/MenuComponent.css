@@ -41,6 +41,7 @@
 .branding .tagline {
     vertical-align: middle;
     display: inline-flex;
+    white-space: nowrap;
 }
 
 .hamburger-icon {
