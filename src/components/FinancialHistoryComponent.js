@@ -73,9 +73,9 @@ class FinancialHistoryComponent extends Component {
                     .attr('x', (a) => xScale(a.name) - 5)
                     .attr('width', xScale.bandwidth() + 10);
         
-                const y = yScale(actual.netIncome),
+                const y = yScale(actual.netIncome);
         
-                    line = chart.append('line')
+                chart.append('line')
                     .attr('id', 'limit')
                     .attr('x1', 0)
                     .attr('y1', y)
