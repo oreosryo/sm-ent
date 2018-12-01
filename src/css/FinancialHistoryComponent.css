@@ -1,6 +1,12 @@
+  #financial-history {
+      max-width: 800px;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+
   #financial-history svg {
-      height: 300px;
-      width: 600px;
+      height: auto;
+      width: 100%;
       display: block;
       margin: auto;
   }

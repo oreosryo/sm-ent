@@ -152,8 +152,10 @@ class FinancialHistoryComponent extends Component {
         return (
             <div id="financial-history">
                 <div className="title">Financial History</div>
-                <svg id="data-viz-1" />
-                <svg id="data-viz-2" />
+                <svg id="data-viz-1" viewBox="0 0 600 300"
+                preserveAspectRatio="xMidYMid meet"/>
+                <svg id="data-viz-2" viewBox="0 0 600 300"
+                preserveAspectRatio="xMidYMid meet"/>
             </div>
         );
     }
