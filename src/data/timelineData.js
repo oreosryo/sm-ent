@@ -73,6 +73,29 @@ var timeLineData = [
             thumbnailHeight: 300,
             caption: "f(x) (post-Sulli departure)"
         }]
+    }, 
+    {
+        title: "2011-Present",
+        content: "Along with multiple solo debuts from existing groups, SM debuted some of the biggest K-Pop groups out of the younger generation of K-Pop idols, including EXO, Red Velvet and NCT (with their multiple subunits).",
+        images: [{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/EXO.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/EXO.jpg?raw=true",
+            thumbnailWidth: 450,
+            thumbnailHeight: 300,
+            caption: "EXO (post-departure of Chinese members Sehun, Kris and Tao)"
+        },{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/RV.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/RV.jpg?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 300,
+            caption: "Red Velvet"
+        }, {
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/NCT.png?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/NCT.png?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 250,
+            caption: "NCT"
+        }]
     }
 ];
 
