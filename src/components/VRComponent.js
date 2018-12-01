@@ -13,9 +13,9 @@ class VRComponent extends Component {
                     Enter full-screen mode &nbsp;
                     <img className="full-screen-icon" src={fullScreen} alt="Switch to VR Fullscreen"/>
                 </a>
-                {/*<iframe frameBorder="0" title="SM Family VR Experience" src="../sm-360/index.html"/>*/}
+                <iframe frameBorder="0" title="SM Family VR Experience" src="../sm-360/index.html"/>
                 {/* Development purposes only */}
-                <iframe frameBorder="0" title="SM Family VR Experience" src="http://localhost:8081/index.html"/>
+                {/*<iframe frameBorder="0" title="SM Family VR Experience" src="http://localhost:8081/index.html"/>*/}
             </div>
         );
     }
