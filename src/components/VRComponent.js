@@ -7,6 +7,8 @@ class VRComponent extends Component {
     render() {
         return (
             <div id="VRFrame">
+                <div className="title">SM Family</div>
+                <br/>
                 <img className="vr-icon" src={vrIcon} alt="VR"/>
                 <br/>
                 <a href="https://oreosryo.github.io/sm-360" className="full-screen-prompt">

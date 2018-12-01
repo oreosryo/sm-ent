@@ -21,17 +21,58 @@ var timeLineData = [
             thumbnailHeight: 300,
             caption: "S.E.S."
         }, {
-            src: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
-            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/shinhwa.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/shinhwa.jpg?raw=true",
             thumbnailWidth: 400,
             thumbnailHeight: 300,
             caption: "Shinhwa"
         }]
     },
     {
-        title: "1997",
-        content: "SM's first girl group, SES, debuts. ",
-        images: []
+        title: "2000-2004",
+        content: "This marked the start of the second Hallyu with big names like BoA and TVXQ making their debut.",
+        images: [{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/BoA.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/BoA.jpg?raw=true",
+            thumbnailWidth: 400,
+            thumbnailHeight: 300,
+            caption: "BoA"
+        },{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/TVXQ.jpg?raw=true",
+            thumbnailWidth: 300,
+            thumbnailHeight: 300,
+            caption: "TVXQ (before the group split, OT5 forever)"
+        }]
+    }, 
+    {
+        title: "2005-2010",
+        content: "Super Junior, Girls' Generation, SHINee and f(x) were wildly popular and part of the 'Golden Age' of K-Pop (along with BoA and TVXQ)",
+        images: [{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/SuJu.png?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/SuJu.png?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 300,
+            caption: "Super Junior"
+        },{
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/GG.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/GG.jpg?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 400,
+            caption: "Girls' Generation (before Jessica left)"
+        }, {
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/SHINee.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/SHINee.jpg?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 300,
+            caption: "SHINee (before Jonghyun passed, RIP)"
+        }, {
+            src: "https://github.com/oreosryo/files/blob/master/sm-ent/fx.jpg?raw=true",
+            thumbnail: "https://github.com/oreosryo/files/blob/master/sm-ent/fx.jpg?raw=true",
+            thumbnailWidth: 500,
+            thumbnailHeight: 300,
+            caption: "f(x) (post-Sulli departure)"
+        }]
     }
 ];
 

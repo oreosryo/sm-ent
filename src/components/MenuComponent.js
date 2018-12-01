@@ -36,7 +36,7 @@ class MenuComponent extends Component {
                         <div className="menu-item"><a href="#about">About</a></div>
                         <div className="menu-item"><a href="#timeline-container">Timeline</a></div>
                         <div className="menu-item"><a href="#financial-history">Financial History</a></div>
-                        <div className="menu-item"><a href="#VRFrame">VR</a></div>
+                        <div className="menu-item"><a href="#VRFrame">SM Family</a></div>
                     </div>
                     <img className="hamburger-icon" src={hamburger} alt="Expand menu" onClick={this.toggleMenu.bind(this)}/>
                 </div>
@@ -45,7 +45,7 @@ class MenuComponent extends Component {
                     <div className="menu-item"><a href="#about" onClick={this.toggleMenu.bind(this)}>About</a></div>
                     <div className="menu-item"><a href="#timeline-container" onClick={this.toggleMenu.bind(this)}>Timeline</a></div>
                     <div className="menu-item"><a href="#financial-history" onClick={this.toggleMenu.bind(this)}>Financial History</a></div>
-                    <div className="menu-item"><a href="#VRFrame" onClick={this.toggleMenu.bind(this)}>VR</a></div>
+                    <div className="menu-item"><a href="#VRFrame" onClick={this.toggleMenu.bind(this)}>SM Family</a></div>
                     </div>)
                 }
             </div>
