@@ -28,9 +28,9 @@ class MenuComponent extends Component {
         return (
             <div id="menu">
                 <div id="menu-bar">
-                    <div class="branding">
+                    <div className="branding">
                         <img src={smLogo} alt="SM Entertainment" />
-                        <div class="tagline">An Interactive History</div>
+                        <div className="tagline">An Interactive History</div>
                     </div>
                     <div className="desktop menu-items">
                         <div className="menu-item"><a href="#about">About</a></div>

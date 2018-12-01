@@ -7,11 +7,11 @@ class VRComponent extends Component {
     render() {
         return (
             <div id="VRFrame">
-                <img class="vr-icon" src={vrIcon} alt="VR"/>
+                <img className="vr-icon" src={vrIcon} alt="VR"/>
                 <br/>
-                <a href="https://oreosryo.github.io/sm-360" class="full-screen-prompt">
+                <a href="https://oreosryo.github.io/sm-360" className="full-screen-prompt">
                     Enter full-screen mode &nbsp;
-                    <img class="full-screen-icon" src={fullScreen} alt="Switch to VR Fullscreen"/>
+                    <img className="full-screen-icon" src={fullScreen} alt="Switch to VR Fullscreen"/>
                 </a>
                 {/*<iframe frameBorder="0" title="SM Family VR Experience" src="../sm-360/index.html"/>*/}
                 {/* Development purposes only */}

@@ -100,3 +100,8 @@ a[href] > img {
 #ReactGridGallery {
   padding: 16px 0; 
 }
+
+div .tile-viewport:hover > img {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
