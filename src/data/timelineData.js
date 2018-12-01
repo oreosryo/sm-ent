@@ -8,8 +8,8 @@ var timeLineData = [
         title: "1997",
         content: "One of SM Entertainment's biggest groups, H.O.T, debuted. They were one of the first stars of the Korean Wave (or Hallyu). They sold over 12 million copies in South Korea and were commercially successful in China and Japan.",
         images: [{
-            src: "../assets/timeline-images/hot-history.jpeg",
-            thumbnail: "../assets/timeline-images/hot-history.jpeg",
+            src: "/sm-ent/static/media/hot-history.jpeg",
+            thumbnail: "/sm-ent/static/media/hot-history.jpeg",
             thumbnailWidth: 320,
             thumbnailHeight: 174,
             caption: "H.O.T History"
